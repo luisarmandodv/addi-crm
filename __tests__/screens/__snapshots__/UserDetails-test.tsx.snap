@@ -1,0 +1,406 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDetails Component Should render snapshot 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#82ccdd",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": 25,
+              "paddingHorizontal": 30,
+            },
+            Object {
+              "backgroundColor": "#f0ece2",
+              "borderRadius": 10,
+              "margin": 8,
+              "marginBottom": 10,
+              "padding": 10,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "marginLeft": 7,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(103, 80, 164, 1)",
+                  "borderRadius": 40,
+                  "height": 80,
+                  "width": 80,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              accessibilityIgnoresInvertColors={true}
+              source={
+                Object {
+                  "uri": "user-image-url",
+                }
+              }
+              style={
+                Object {
+                  "borderRadius": 40,
+                  "height": 80,
+                  "width": 80,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "rgba(28, 27, 31, 1)",
+                  },
+                  Object {
+                    "textAlign": "left",
+                  },
+                  Array [
+                    Object {
+                      "textAlign": "left",
+                    },
+                    Object {
+                      "color": "rgba(28, 27, 31, 0.87)",
+                      "writingDirection": "ltr",
+                    },
+                    Array [
+                      Object {
+                        "fontSize": 20,
+                        "letterSpacing": 0.15,
+                        "lineHeight": 30,
+                        "marginVertical": 2,
+                      },
+                      Array [
+                        Object {
+                          "fontSize": 24,
+                          "fontWeight": "bold",
+                        },
+                        Object {
+                          "marginBottom": 5,
+                          "marginTop": 15,
+                        },
+                      ],
+                    ],
+                  ],
+                ]
+              }
+            >
+              John Doe
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "rgba(28, 27, 31, 1)",
+                  },
+                  Object {
+                    "textAlign": "left",
+                  },
+                  Array [
+                    Object {
+                      "textAlign": "left",
+                    },
+                    Object {
+                      "color": "rgba(28, 27, 31, 0.54)",
+                      "writingDirection": "ltr",
+                    },
+                    Array [
+                      Object {
+                        "fontSize": 12,
+                        "letterSpacing": 0.4,
+                        "lineHeight": 20,
+                        "marginVertical": 2,
+                      },
+                      Object {
+                        "fontSize": 14,
+                        "fontWeight": "500",
+                        "lineHeight": 14,
+                      },
+                    ],
+                  ],
+                ]
+              }
+            >
+              johndoe123
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "marginBottom": 25,
+                "paddingHorizontal": 30,
+              },
+              Object {
+                "marginLeft": "-10%",
+                "marginTop": "10%",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginBottom": 16,
+              }
+            }
+          >
+            <MockedMaterialCommunityIcons
+              color="#777777"
+              name="map-marker-radius"
+              size={20}
+            />
+            <Text
+              style={
+                Array [
+                  Object {
+                    "textAlign": "left",
+                  },
+                  Object {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "letterSpacing": 0,
+                  },
+                  Object {
+                    "writingDirection": "ltr",
+                  },
+                  Object {
+                    "color": "#777777",
+                    "marginLeft": 20,
+                  },
+                ]
+              }
+            >
+              New York
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginBottom": 16,
+              }
+            }
+          >
+            <MockedMaterialCommunityIcons
+              color="#777777"
+              name="phone"
+              size={20}
+            />
+            <Text
+              style={
+                Array [
+                  Object {
+                    "textAlign": "left",
+                  },
+                  Object {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "letterSpacing": 0,
+                  },
+                  Object {
+                    "writingDirection": "ltr",
+                  },
+                  Object {
+                    "color": "#777777",
+                    "marginLeft": 20,
+                  },
+                ]
+              }
+            >
+              123-456-7890
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginBottom": 16,
+              }
+            }
+          >
+            <MockedMaterialCommunityIcons
+              color="#777777"
+              name="email"
+              size={20}
+            />
+            <Text
+              style={
+                Array [
+                  Object {
+                    "textAlign": "left",
+                  },
+                  Object {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "letterSpacing": 0,
+                  },
+                  Object {
+                    "writingDirection": "ltr",
+                  },
+                  Object {
+                    "color": "#777777",
+                    "marginLeft": 20,
+                  },
+                ]
+              }
+            >
+              johndoe@example.com
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderBottomColor": "#777777",
+              "borderBottomWidth": 1,
+              "borderTopColor": "#777777",
+              "borderTopWidth": 1,
+              "flexDirection": "row",
+              "height": 100,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": "50%",
+                },
+                Object {
+                  "borderRightColor": "#dddddd",
+                  "borderRightWidth": 1,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "rgba(28, 27, 31, 1)",
+                  },
+                  Object {
+                    "textAlign": "left",
+                  },
+                  Array [
+                    Object {
+                      "textAlign": "left",
+                    },
+                    Object {
+                      "color": "rgba(28, 27, 31, 0.54)",
+                      "writingDirection": "ltr",
+                    },
+                    Array [
+                      Object {
+                        "fontSize": 12,
+                        "letterSpacing": 0.4,
+                        "lineHeight": 20,
+                        "marginVertical": 2,
+                      },
+                      Object {
+                        "marginBottom": 10,
+                      },
+                    ],
+                  ],
+                ]
+              }
+            >
+              National Registry Identification
+            </Text>
+            <ActivityIndicator
+              animating={true}
+              hidesWhenStopped={true}
+              size="small"
+              testID="national-registry-identification-loader"
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "width": "50%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "rgba(28, 27, 31, 1)",
+                  },
+                  Object {
+                    "textAlign": "left",
+                  },
+                  Array [
+                    Object {
+                      "textAlign": "left",
+                    },
+                    Object {
+                      "color": "rgba(28, 27, 31, 0.54)",
+                      "writingDirection": "ltr",
+                    },
+                    Array [
+                      Object {
+                        "fontSize": 12,
+                        "letterSpacing": 0.4,
+                        "lineHeight": 20,
+                        "marginVertical": 2,
+                      },
+                      Object {
+                        "marginBottom": 10,
+                      },
+                    ],
+                  ],
+                ]
+              }
+            >
+              Judicial Records
+            </Text>
+            <ActivityIndicator
+              animating={true}
+              hidesWhenStopped={true}
+              size="small"
+              testID="judicial-records-loader"
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;

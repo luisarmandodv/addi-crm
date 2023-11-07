@@ -1,0 +1,352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeScreen component Should render snapshot 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#82ccdd",
+      "flex": 1,
+    }
+  }
+>
+  <ActivityIndicator
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    testID="loader"
+  />
+  <Modal
+    animationType="slide"
+    hardwareAccelerated={false}
+    presentationStyle="pageSheet"
+    transparent={true}
+    visible={false}
+  />
+  <RCTScrollView>
+    <View>
+      <RCTScrollView
+        data={
+          Array [
+            Object {
+              "data": Array [
+                Object {
+                  "email": "john@example.com",
+                  "firstName": "John",
+                  "image": "john.jpg",
+                  "lastName": "Doe",
+                },
+              ],
+              "title": "Leads",
+            },
+            Object {
+              "data": Array [],
+              "title": "Prospects",
+            },
+          ]
+        }
+        getItem={[Function]}
+        getItemCount={[Function]}
+        keyExtractor={[Function]}
+        onContentSizeChange={[Function]}
+        onLayout={[Function]}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={
+          Array [
+            0,
+            3,
+          ]
+        }
+      >
+        <View>
+          <View
+            onLayout={[Function]}
+            style={null}
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "rgba(28, 27, 31, 1)",
+                  },
+                  Object {
+                    "textAlign": "left",
+                  },
+                  Array [
+                    Object {
+                      "textAlign": "left",
+                    },
+                    Object {
+                      "color": "rgba(28, 27, 31, 0.87)",
+                      "writingDirection": "ltr",
+                    },
+                    Array [
+                      Object {
+                        "fontSize": 20,
+                        "letterSpacing": 0.15,
+                        "lineHeight": 30,
+                        "marginVertical": 2,
+                      },
+                      Object {
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                      },
+                    ],
+                  ],
+                ]
+              }
+            >
+              Leads
+            </Text>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="button"
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#f0ece2",
+                    "borderRadius": 10,
+                    "margin": 8,
+                    "marginBottom": 10,
+                    "padding": 10,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "marginHorizontal": 15,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "rgba(103, 80, 164, 1)",
+                            "borderRadius": 25,
+                            "height": 50,
+                            "width": 50,
+                          },
+                          Object {
+                            "alignSelf": "center",
+                            "borderRadius": 25,
+                            "height": 50,
+                            "width": 50,
+                          },
+                        ]
+                      }
+                    >
+                      <Image
+                        accessibilityIgnoresInvertColors={true}
+                        source={
+                          Object {
+                            "uri": "john.jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "borderRadius": 25,
+                            "height": 50,
+                            "width": 50,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                  <View>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "rgba(28, 27, 31, 1)",
+                          },
+                          Object {
+                            "textAlign": "left",
+                          },
+                          Array [
+                            Object {
+                              "textAlign": "left",
+                            },
+                            Object {
+                              "color": "rgba(28, 27, 31, 0.87)",
+                              "writingDirection": "ltr",
+                            },
+                            Array [
+                              Object {
+                                "fontSize": 20,
+                                "letterSpacing": 0.15,
+                                "lineHeight": 30,
+                                "marginVertical": 2,
+                              },
+                              Object {
+                                "color": "#3c6382",
+                                "fontSize": 16,
+                                "marginTop": 8,
+                              },
+                            ],
+                          ],
+                        ]
+                      }
+                    >
+                      John Doe
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "rgba(28, 27, 31, 1)",
+                          },
+                          Object {
+                            "textAlign": "left",
+                          },
+                          Array [
+                            Object {
+                              "textAlign": "left",
+                            },
+                            Object {
+                              "color": "rgba(28, 27, 31, 0.54)",
+                              "writingDirection": "ltr",
+                            },
+                            Array [
+                              Object {
+                                "fontSize": 12,
+                                "letterSpacing": 0.4,
+                                "lineHeight": 20,
+                                "marginVertical": 2,
+                              },
+                              Object {
+                                "color": "#898A8D",
+                              },
+                            ],
+                          ],
+                        ]
+                      }
+                    >
+                      john@example.com
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "textAlign": "left",
+                          },
+                          Object {
+                            "color": "rgba(28, 27, 31, 1)",
+                            "fontFamily": "System",
+                            "fontWeight": "400",
+                            "letterSpacing": 0,
+                          },
+                          Object {
+                            "writingDirection": "ltr",
+                          },
+                          Object {
+                            "color": "#e58e26",
+                          },
+                        ]
+                      }
+                    >
+                      In Progress
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={null}
+          />
+          <View
+            onLayout={[Function]}
+            style={null}
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "rgba(28, 27, 31, 1)",
+                  },
+                  Object {
+                    "textAlign": "left",
+                  },
+                  Array [
+                    Object {
+                      "textAlign": "left",
+                    },
+                    Object {
+                      "color": "rgba(28, 27, 31, 0.87)",
+                      "writingDirection": "ltr",
+                    },
+                    Array [
+                      Object {
+                        "fontSize": 20,
+                        "letterSpacing": 0.15,
+                        "lineHeight": 30,
+                        "marginVertical": 2,
+                      },
+                      Object {
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "marginLeft": 10,
+                      },
+                    ],
+                  ],
+                ]
+              }
+            >
+              Prospects
+            </Text>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={null}
+          />
+        </View>
+      </RCTScrollView>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
