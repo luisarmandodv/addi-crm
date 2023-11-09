@@ -1,5 +1,10 @@
 # React Native Expo - Client Relationship Management (CRM) - FrontEnd
 
+<img width="400" alt="image" src="https://github.com/luisarmandodv/addi-crm/assets/23444805/4129abcb-cd71-4ee0-b33b-f5d7a053c04c">
+<img width="400" alt="image" src="https://github.com/luisarmandodv/addi-crm/assets/23444805/6627cfcf-91cf-4859-9d95-a6b7b54bca4f">
+<img width="400" alt="image" src="https://github.com/luisarmandodv/addi-crm/assets/23444805/c901dfd2-4a7d-4cec-b6c5-f4df1fe210ad">
+<img width="400" alt="image" src="https://github.com/luisarmandodv/addi-crm/assets/23444805/4a378c7f-42ea-4de7-8404-1a4f1d3074ea">
+
 
 React Native CRM with [Expo framework](https://expo.dev/).
 
@@ -16,8 +21,6 @@ React Native CRM with [Expo framework](https://expo.dev/).
 - Run on Android: `npm run android` or `yarn android`. _For running on an Android simulator, install [Android Studio](https://developer.android.com/studio)._
 
 - Run on iOS: `npm run ios` or `yarn ios`. _For running on an iOS simulator, install [XCode](https://www.freecodecamp.org/news/how-to-download-and-install-xcode/)_
-
-- Run on both Android & iOS: `npm run mobile` or `yarn mobile`.
 
 ## Libraries
 
